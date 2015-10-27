@@ -1,0 +1,13 @@
+//You can add as many comments as you like. Comment lines start with "//".
+
+//You can change the order of the following parameters, but cannot change the name of parameters. 
+//Note that there is a space after the colon for each pararmeter. Do not include space in the value of any parameter.
+
+//OUTPUT_PATH defines the directory where output files are created. Its value must end with letter '/', e.g. "./". Make sure the directory exits.
+OUTPUT_PATH: ./
+
+//DELTA: please see the paper for its meaning. Its value must be an integer.
+DELTA: 2
+
+//AGGREGATE_WINDOW_SIZE defines the size of an unit time window (in minutes) in which taxi queries are counted. Its value must be multiples of 30.
+AGGREGATE_WINDOW_SIZE: 30

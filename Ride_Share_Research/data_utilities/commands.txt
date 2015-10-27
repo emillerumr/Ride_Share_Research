@@ -1,0 +1,3 @@
+./request_parser
+./trajectory_parser traffic
+java GraphUtil output/vertices.out output/edges.out togra output/edges.gra

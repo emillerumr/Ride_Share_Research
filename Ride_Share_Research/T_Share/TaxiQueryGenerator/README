@@ -1,0 +1,11 @@
+WHAT IS THIS
+   This is a readme document for a progam called TaxiQueryGenerator which outputs taxi ride queries conforming to the real query distribution over space and time in Beijing.
+   
+Usage: 
+   The config file contains all the input parameters that are read by the program. Change them according to your needs. 
+   Make sure that the "config" file and the "i" folder is in the same directory with the TaxiQueryGenerator.jar file.
+   Run the jar file by typing "java -jar TaxiQueryGenerator.jar"
+
+Metadata of Output File:
+   The output files have the following fields: QUERY_BIRTH_TIME,QUERY_ORIGIN_LATITUDE,QUERY_ORIGIN_LONGITUDE,QUERY_DESTINATION_LATITUDE,QUERY_DESTINATION_LONGITUDE
+   You can calculate the travel time from the origin to the destination by leveraging tools like Google Map API. 
